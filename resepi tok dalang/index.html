@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RESEPI TOK DALANG</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+   <!-- Custom CSS (Tambahkan ini!) -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">RESEPI TOK DALANG</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#courses">Recipe</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero d-flex align-items-center text-center text-white" style="background: url('https://pbs.twimg.com/media/D3CkmqhU0AA1bM-.jpg') no-repeat center center/cover; height: 70vh;">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Welcome to Resepi Tok Dalang</h1>
+      <p class="lead">MEMANG PADUU !!!</p>
+    </div>
+  </header>
+
+  <!-- Courses Section -->
+  <section id="courses" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Top Recipe</h2>
+      <div class="row g-4">
+
+        <!-- Python Course -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow">
+            <img src="image/nasi goreng kampung.jpeg" class="card-img-top" alt="Python" />
+            <div class="card-body">
+              <h5 class="card-title">Nasi Goreng Kampung</h5>
+              <p class="card-text">MAKEY SEPINGGEY TOK GENAP BOHH</p>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pythonModal">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- VB Programming Course -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow">
+            <img src="image/daging belengas.jpeg" class="card-img-top" alt="VB Programming" />
+            <div class="card-body">
+              <h5 class="card-title">Daging Belengas</h5>
+              <p class="card-text">SEDAK DOOH SAPA JILAT JARI</p>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#vbModal">View Details</a>
+            </div>
+          </div>
+        </div>
+		
+		<!-- VB Programming Course -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow">
+            <img src="image/siput sedut masak lemak.jpeg" class="card-img-top" alt="VB Programming" />
+            <div class="card-body">
+              <h5 class="card-title">Siput Sedut Masak Lemak</h5>
+              <p class="card-text">SEKALI SEDUT TRINGAK PAH DALE MIMPI</p>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#vbModal">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- You can add more course cards here -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Python Modal -->
+  <div class="modal fade" id="pythonModal" tabindex="-1" aria-labelledby="pythonModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="pythonModalLabel">NASI GORENG KAMPUNG</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <h6>BAHAN-BAHAN:</h6>
+          <ul>
+            <li>Nasi putih sejuk – 1-2 pinggan (lebih elok guna nasi semalam)</li>
+            <li>Cili padi – 5-10 biji (ikut tahap pedas yang diingini)</li>
+            <li>Bawang merah – 2 ulas</li>
+            <li>Bawang putih – 1 ulas</li>
+			<li>Ikan bilis – segenggam (digoreng garing dulu, boleh juga tumbuk sikit)</li>
+			<li>Sayur kangkung/sawi – sedikit (dipotong pendek)</li>
+			<li>Telur – 1 biji</li>
+			<li>Kicap manis / kicap masin – sedikit (ikut rasa)</li>
+			<li>Garam & serbuk perasa – secukup rasa</li>
+			<li>Minyak masak – untuk menumis</li>
+          </ul>
+          <h6>Duration:</h6>
+          <p>10 MINIT</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div> 
+</div>
+  </div>
+
+  <!-- VB Modal -->
+  <div class="modal fade" id="vbModal" tabindex="-1" aria-labelledby="vbModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="vbModalLabel">DAGING BELENGAS</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <h6>BAHAN-BAHAN:</h6>
+          <ul>
+            <li>Daging lembu – 300-500g (hiris nipis, rebus dulu kalau liat)</li>
+            <li>Cili padi – 10-20 biji (ikut tahap pedas)</li>
+            <li>Bawang merah – 4-5 ulas</li>
+            <li>Bawang putih – 2 ulas</li>
+			<li>Serai – 1 batang (dititik atau dihiris halus)</li>
+			<li>Daun limau purut – 2-3 helai (dicarik)</li>
+			<li>Kunyit hidup – 1 inci (atau serbuk kunyit – 1/2 sudu kecil)</li>
+			<li>Garam & serbuk perasa – secukup rasa</li>
+			<li>Minyak masak – untuk menumis</li>
+          </ul>
+          <h6>Duration:</h6>
+          <p>15 MINIT</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="vbModal" tabindex="-1" aria-labelledby="vbModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="vbModalLabel">SIPUT SEDUT MASAK LEMAK</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <h6>BAHAN-BAHAN:</h6>
+          <ul>
+            <li>Siput sedut – 1 kg (potong hujung ekor siput dan bersihkan betul-betul, rendam dengan air garam/labu selama 1-2 jam kalau perlu)</li>
+            <li>Santan pekat – 2 cawan (guna santan segar lebih sedap)</li>
+            <li>Cili padi – 10-20 biji (ikut tahap kepedasan)</li>
+            <li>Kunyit hidup – 1 inci (atau 1/2 sudu kecil serbuk kunyit kalau tiada kunyit hidup)</li>
+			<li>Serai – 2 batang (dititik)</li>
+			<li>Daun kunyit – 1 helai (disiat dan disimpul)</li>
+			<li>Garam & serbuk perasa – secukup rasa</li>
+          </ul>
+          <h6>Duration:</h6>
+          <p>15 MINIT</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <section id="about" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2>About Us</h2>
+      <p class="lead">
+        RESEPI INI BERASAL DARI KAMPUNG DURIAN RUNTUH DAN TIDAK BOLEH DIJUMPAI DI MANA-MANA
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" id="name" class="form-control" required />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" class="form-control" required />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" rows="4" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-success w-100">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3"> 
+  <p class="mb-0">&copy; 2025 MOHAMAD AFNAN DARWISY BIN MOHD ZUHAIRI | 13DIT24F1048</p> 
+</footer>
+
+<!-- Bootstrap JS --> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
